@@ -27,6 +27,8 @@ class StudentDetails
         studentDetails.Course = "Deplama";
         studentDetails.Branch = "CSE";
 
-        Console.WriteLine($"studentName is: {studentDetails.StudentName}, Course is: {studentDetails.Course}");
+        Console.WriteLine($"studentName is: {studentDetails.StudentName}, Course is: {studentDetails.StudentId}");
+
+        Console.WriteLine($"studentName is: {studentDetails.Course}, Course is: {studentDetails.Branch}");
     }
 }

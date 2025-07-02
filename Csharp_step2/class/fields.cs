@@ -68,7 +68,7 @@ class MovieDetails
         movieDetails.ShowaboutDevaraMovie(movieDetails.movieName, movieDetails.movieDirector);
 
 
-        string aboutkalkiMovie = ShowaboutKalkiMovie("Kalki", "07-05-2024");
+        string aboutkalkiMovie = ShowaboutKalkiMovie("Kalki", "06-05-2024");
         Console.WriteLine(aboutkalkiMovie);
     }
 }

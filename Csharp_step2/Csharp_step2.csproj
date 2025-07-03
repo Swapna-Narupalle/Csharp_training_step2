@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StudentDetails</StartupObject>
+    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="class\ConstReadonly.cs" />
+    <Compile Include="class\constructors.cs" />
     <Compile Include="class\fields.cs" />
     <Compile Include="class\Property.cs" />
+    <Compile Include="namespace\AllDetails.cs" />
+    <Compile Include="namespace\emloyeeDetails.cs" />
+    <Compile Include="namespace\mainProgram.cs" />
+    <Compile Include="namespace\movieDetails.cs" />
+    <Compile Include="namespace\studentDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

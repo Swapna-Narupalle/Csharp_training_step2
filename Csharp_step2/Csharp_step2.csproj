@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StaticvsNonstatic_instantiate.Mainprogram</StartupObject>
+    <StartupObject>Class_inheritence.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="class\fields.cs" />
     <Compile Include="class\Property.cs" />
     <Compile Include="class\static_class.cs" />
+    <Compile Include="inheritance\1classinheritence.cs" />
     <Compile Include="namespace\1AllDetails.cs" />
     <Compile Include="namespace\4emloyeeDetails.cs" />
     <Compile Include="namespace\5mainProgram.cs" />
@@ -59,9 +60,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="staticvsnonstatic\1instantiate.cs" />
+    <Compile Include="staticvsnonstatic\2Members.cs" />
+    <Compile Include="staticvsnonstatic\3LiveExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

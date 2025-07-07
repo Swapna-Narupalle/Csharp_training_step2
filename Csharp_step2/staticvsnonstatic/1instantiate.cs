@@ -32,6 +32,11 @@ namespace StaticvsNonstatic_instantiate
         {
             Console.WriteLine("This is a non static class and static method");
         }
+
+        public static string Printmessage4()
+        {
+            return "This is a non static class and static method with return type";
+        }
     }
 
     public class Mainprogram
@@ -48,6 +53,8 @@ namespace StaticvsNonstatic_instantiate
             Console.WriteLine(nonstaticclass.Printmessage2());
 
             Nonstaticclass.Printmessage3();
+
+            Console.WriteLine(Nonstaticclass.Printmessage4());
 
 
         }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
+    <StartupObject>StaticvsNonstatic_instantiate.Mainprogram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,13 +50,15 @@
     <Compile Include="class\constructors.cs" />
     <Compile Include="class\fields.cs" />
     <Compile Include="class\Property.cs" />
-    <Compile Include="namespace\AllDetails.cs" />
-    <Compile Include="namespace\emloyeeDetails.cs" />
-    <Compile Include="namespace\mainProgram.cs" />
-    <Compile Include="namespace\movieDetails.cs" />
-    <Compile Include="namespace\studentDetails.cs" />
+    <Compile Include="class\static_class.cs" />
+    <Compile Include="namespace\1AllDetails.cs" />
+    <Compile Include="namespace\4emloyeeDetails.cs" />
+    <Compile Include="namespace\5mainProgram.cs" />
+    <Compile Include="namespace\2movieDetails.cs" />
+    <Compile Include="namespace\3studentDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staticvsnonstatic\1instantiate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

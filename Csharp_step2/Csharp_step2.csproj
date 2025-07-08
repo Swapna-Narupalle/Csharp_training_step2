@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Class_inheritence.program</StartupObject>
+    <StartupObject>AboutMovies_interface.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="class\fields.cs" />
     <Compile Include="class\Property.cs" />
     <Compile Include="class\static_class.cs" />
+    <Compile Include="implementation\aboutMovies.cs" />
     <Compile Include="inheritance\1classinheritence.cs" />
     <Compile Include="namespace\1AllDetails.cs" />
     <Compile Include="namespace\4emloyeeDetails.cs" />

@@ -9,7 +9,13 @@ namespace Class_inheritence
         public School()
         {
             schoolName = "Sri vedavyasa High School";
-            Console.WriteLine($"*********{schoolName}*************");
+           
+        }
+
+        public School(string student)
+        {
+            schoolName = "Sri vedavyasa High School";
+            Console.WriteLine($"{student} is the topper of the {schoolName}");
         }
 
     }
@@ -25,6 +31,7 @@ namespace Class_inheritence
 
         public HeadMaster()
         {
+           
             Console.WriteLine($"Iam working as a HeadMaster in {schoolName}");
         }
     }
@@ -33,10 +40,10 @@ namespace Class_inheritence
     {
         public string StudentName { get; set; }
 
-        public Student()
+        public Student():base("Rushi")
         {
            StudentName = "Rushi";
-            Console.WriteLine($"{StudentName} is studying his tenth class in {schoolName}");
+           Console.WriteLine($"{StudentName} is studying his tenth class in {schoolName}");
         }
 
         public override string ToString()
@@ -49,14 +56,17 @@ namespace Class_inheritence
     {
         static void Main()
         {
-            School school = new School();
-            Console.WriteLine();
+            School school1 = new School();
+            Console.WriteLine($"*********{school1.schoolName}*************");
 
-            HeadMaster headmaster1 = new HeadMaster("Narasimha");
-            Console.WriteLine();
+            School school2 = new School();
+          
+
+            HeadMaster headmaster1 = new HeadMaster("Rami reddy");
+            
 
             HeadMaster headmaster2 = new HeadMaster();
-            Console.WriteLine();
+           
 
             Student student = new Student();
             Console.WriteLine(student);

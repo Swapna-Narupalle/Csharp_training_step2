@@ -1,5 +1,5 @@
 ﻿using System;
-
+//6. Prepare the different namespaces with different classes
 namespace EmployeeNamespace
 {
     public class Employee//non-static class

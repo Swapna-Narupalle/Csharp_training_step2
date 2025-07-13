@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProgramNamespace.Program</StartupObject>
+    <StartupObject>Method_Overloading.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,13 +67,21 @@
     <Compile Include="staticvsnonstatic\1instantiate.cs" />
     <Compile Include="staticvsnonstatic\2Members.cs" />
     <Compile Include="staticvsnonstatic\3LiveExample.cs" />
-    <Compile Include="Task\11Non-staticclass.cs" />
-    <Compile Include="Task\1method.cs" />
-    <Compile Include="Task\2Methods.cs" />
-    <Compile Include="Task\3Methods.cs" />
-    <Compile Include="Task\4namespaces.cs" />
-    <Compile Include="Task\5namespaces.cs" />
-    <Compile Include="Task\6namespaces.cs" />
+    <Compile Include="Task\10_interfaces.cs" />
+    <Compile Include="Task\11_Non-staticclass.cs" />
+    <Compile Include="Task\12_abstractclass.cs" />
+    <Compile Include="Task\13_polymorphism.cs" />
+    <Compile Include="Task\14_overloading.cs" />
+    <Compile Include="Task\15_Overriding.cs" />
+    <Compile Include="Task\1_methods.cs" />
+    <Compile Include="Task\2_methods.cs" />
+    <Compile Include="Task\3_methods.cs" />
+    <Compile Include="Task\4_namespaces.cs" />
+    <Compile Include="Task\5_namespaces.cs" />
+    <Compile Include="Task\6_namespaces.cs" />
+    <Compile Include="Task\7_inheritence.cs" />
+    <Compile Include="Task\8_interfaces.cs" />
+    <Compile Include="Task\9_interfaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

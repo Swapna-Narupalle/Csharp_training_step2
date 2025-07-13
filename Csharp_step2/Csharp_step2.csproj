@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RunTimePolyMorphismSystem.Program</StartupObject>
+    <StartupObject>ProgramNamespace.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,13 @@
     <Compile Include="staticvsnonstatic\1instantiate.cs" />
     <Compile Include="staticvsnonstatic\2Members.cs" />
     <Compile Include="staticvsnonstatic\3LiveExample.cs" />
+    <Compile Include="Task\11Non-staticclass.cs" />
+    <Compile Include="Task\1method.cs" />
+    <Compile Include="Task\2Methods.cs" />
+    <Compile Include="Task\3Methods.cs" />
+    <Compile Include="Task\4namespaces.cs" />
+    <Compile Include="Task\5namespaces.cs" />
+    <Compile Include="Task\6namespaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
